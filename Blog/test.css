@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5ddff;
+    color: #77758a;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 60px;
+}
+
+h1 span {
+    color: #6845ff;
+    font-style: italic;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.coffee {
+    background-color: #cddedc;
+}
+
+.watch {
+    background-color: #d8e8ed;
+}
+
+.content {
+
+    padding: 25px;
+}
+
+.time {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.card h2 {
+    color: #6845ff;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.subtitle {
+    color: #aaa8b5;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    padding: 20px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color: #6845ff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer div {
+    text-align: right;
+}
+
+.bottom-icons {
+    width: 300px;
+    margin: 70px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-size: 25px;
+}
